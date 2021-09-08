@@ -7,6 +7,7 @@ int main()
         cout<<"Enter 1 for addition"<<endl;
         cout<<"Enter 2 for subtraction"<<endl;
         cout<<"Enter 3 for multiplication"<<endl;
+        cout<<"Enter 4 for division"<<endl;
         cout<<"Enter 0 to exit"<<endl;
         int ch;
         cout<<"Enter your choice:\n";
@@ -41,6 +42,17 @@ int main()
                 cin>>f;
                 mul=e*f;
                 cout<<"Multiplication is: "<<mul<<endl;
+                break;
+            case 4:
+                cout<<"Enter the two number for Division"<<endl;
+                int x,y;
+                float div;
+                cout<<"Enter the operand1: ";
+                cin>>x;
+                cout<<"Enter the operand2: ";
+                cin>>y;
+                div=float(x)/y;
+                cout<<"Division is: "<<div<<endl;
                 break;
             case 0:
                 return 0;
