@@ -5,6 +5,7 @@ int main()
 {
         cout<<"Welcome to calculator"<<endl;
         cout<<"Enter 1 for addition"<<endl;
+        cout<<"Enter 2 for subtraction"<<endl;
         cout<<"Enter 0 to exit"<<endl;
         int ch;
         cout<<"Enter your choice:\n";
@@ -19,6 +20,15 @@ int main()
                 cout<<"Enter the operand2: ";
                 cin>>b;
                 cout<<"Sum is: "<<a+b<<endl;
+                break;
+            case 2:
+                cout<<"Enter the two number for subtraction"<<endl;
+                int c,d;
+                cout<<"Enter the operand1: ";
+                cin>>c;
+                cout<<"Enter the operand2: ";
+                cin>>d;
+                cout<<"Difference is: "<<c-d<<endl;
                 break;
             case 0:
                 return 0;
