@@ -6,6 +6,7 @@ int main()
         cout<<"Welcome to calculator"<<endl;
         cout<<"Enter 1 for addition"<<endl;
         cout<<"Enter 2 for subtraction"<<endl;
+        cout<<"Enter 3 for multiplication"<<endl;
         cout<<"Enter 0 to exit"<<endl;
         int ch;
         cout<<"Enter your choice:\n";
@@ -29,6 +30,17 @@ int main()
                 cout<<"Enter the operand2: ";
                 cin>>d;
                 cout<<"Difference is: "<<c-d<<endl;
+                break;
+            case 3:
+                cout<<"Enter the two number for multiplication"<<endl;
+                int e,f;
+                long mul;
+                cout<<"Enter the operand1: ";
+                cin>>e;
+                cout<<"Enter the operand2: ";
+                cin>>f;
+                mul=e*f;
+                cout<<"Multiplication is: "<<mul<<endl;
                 break;
             case 0:
                 return 0;
