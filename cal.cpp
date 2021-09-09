@@ -8,6 +8,7 @@ int main()
         cout<<"Enter 2 for subtraction"<<endl;
         cout<<"Enter 3 for multiplication"<<endl;
         cout<<"Enter 4 for division"<<endl;
+        cout<<"Enter 5 for addition of 3 variables"<<endl;
         cout<<"Enter 0 to exit"<<endl;
         int ch;
         cout<<"Enter your choice:\n";
@@ -53,6 +54,17 @@ int main()
                 cin>>y;
                 div=float(x)/y;
                 cout<<"Division is: "<<div<<endl;
+                break;
+            case 5:
+                cout<<"Enter three number for addition"<<endl;
+                int k,l,m;
+                cout<<"Enter the operand1: ";
+                cin>>k;
+                cout<<"Enter the operand2: ";
+                cin>>l;
+                cout<<"Enter the operand3: ";
+                cin>>m;
+                cout<<"Sum is: "<<k+l+m<<endl;
                 break;
             case 0:
                 return 0;
