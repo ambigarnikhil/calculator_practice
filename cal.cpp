@@ -9,6 +9,7 @@ int main()
         cout<<"Enter 3 for multiplication"<<endl;
         cout<<"Enter 4 for division"<<endl;
         cout<<"Enter 5 for addition of three variables"<<endl;
+        cout<<"Enter 6 for subtraction of three variables"<<endl;
         cout<<"Enter 0 to exit"<<endl;
         int ch;
         cout<<"Enter your choice:\n";
@@ -65,6 +66,17 @@ int main()
                 cout<<"Enter the operand3: ";
                 cin>>m;
                 cout<<"Sum is: "<<k+l+m<<endl;
+                break;
+            case 6:
+                cout<<"Enter three number for subtraction"<<endl;
+                int k1,l1,m1;
+                cout<<"Enter the operand1: ";
+                cin>>k1;
+                cout<<"Enter the operand2: ";
+                cin>>l1;
+                cout<<"Enter the operand3: ";
+                cin>>m1;
+                cout<<"Difference is: "<<k-l-m<<endl;
                 break;
             case 0:
                 return 0;
